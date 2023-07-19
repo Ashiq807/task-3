@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+    <script src="js/bootstrap.js"></script>
+    <link href="styles.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand text-white" href="#">Five star foods</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active text-danger" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-danger" href="#">about</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-danger" href="#">cart</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-danger" href="#">my account</a>
+          </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-danger" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            category
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">cooldrinks and juices</a></li>
+            <li><a class="dropdown-item" href="#">biriyani</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">snaks</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+<div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="height: 500px;background-color: black;">
+        <img src="photos/image1.jpg" class="d-block w-100 carousel-image" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>offer - 3% off</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item" style="height: 500px;background-color: black;">
+        <img src="photos/image2.jpg" class="d-block w-100 carousel-image" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>offer - 10% off</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item" style="height: 500px;background-color: black;">
+        <img src="photos/image3.jpg" class="d-block w-100 carousel-image" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>offer - 15% off</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <h1 class="text-center mt-5">order now</h1>
+  <div class="container-fluid">
+    <div class="row mt-5">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card mx-auto w-100 mt-4">
+                <img src="photos/image4.jpg" class="card-img-top img-size-1" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-info">chicken fry</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-success">add to cart</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card mx-auto w-100 mt-4">
+                <img src="photos/image5.jpg" class="card-img-top img-size-1" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-info">beef roast</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-success">add to cart</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card mx-auto w-100 mt-4">
+                <img src="photos/image6.jpg" class="card-img-top img-size-1" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-info">burger</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-success">add to cart</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card mx-auto w-100 mt-4">
+                <img src="photos/image7.jpg" class="card-img-top img-size-1" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-info">cocacola</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-success">add to cart</a>
+                </div>
+              </div>
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card mx-auto w-100 mt-4">
+                <img src="photos/image8.jpg" class="card-img-top img-size-1" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-info">cool drink</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-success">add to cart</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card mx-auto w-100 mt-4">
+                <img src="photos/image9.jpg" class="card-img-top img-size-1" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-info">biriyani</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-success">add to cart</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card mx-auto w-100 mt-4">
+                <img src="photos/image10.jpg" class="card-img-top img-size-1" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-info">icecream with shake</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-success">add to cart</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card mx-auto w-100 mt-4">
+                <img src="photos/image11.jpg" class="card-img-top img-size-1" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-info">fizz</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-success">add to cart</a>
+                </div>
+              </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="container-fluid footer1 bg-warning">
+    <div class="container mt-5">
+    <div class="row">
+      <div class="col-4 mt-5">
+        <ul class="footer-text list-unstyled">
+          <li class="text-bg-color">
+            <h3>address</h3>
+            <p>five star restaurant<br>north chalakudy<br>pin - 680307</p>
+          </li>
+          <li class="text-bg-color mt-4">
+            <h3>contact us</h3>
+            <a href="#" class="nomg"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-8 mt-5">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31403.35733165266!2d76.31105310188421!3d10.308259771384932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080269866481a9%3A0x6b5ec1dc50c0402d!2sChalakudy%2C%20Kerala!5e0!3m2!1sen!2sin!4v1683694931042!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      </div>
+    </div>
+    </div>
+  </div>
+</body>
+</html>
